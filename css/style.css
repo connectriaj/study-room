@@ -1,4 +1,4 @@
-/* google fonts from here */
+/* google fonts here */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 before styles start from here *,
@@ -10,7 +10,7 @@ before styles start from here *,
 }
 
 /* ---------------------------------
-------- common styles from here
+------common styles from here-------
 ************************************ */
 body {
   font-family: "Poppins", sans-serif;
@@ -25,4 +25,17 @@ body {
   right: 0;
   background: #000;
   opacity: 0.6;
+}
+/* course section styles */
+.course-image {
+  width: auto;
+}
+
+/* responsive design from here */
+@media only screen and (max-width: 576px) {
+  .course-image {
+    width: 100%;
+    height: 224px;
+    margin-bottom: 30px;
+  }
 }
